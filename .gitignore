@@ -1,0 +1,30 @@
+# Environment secrets - NEVER commit
+.env
+*.env.local
+
+# Backend build
+backend/target/
+backend/.mvn/
+*.jar
+*.war
+
+# Frontend build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
